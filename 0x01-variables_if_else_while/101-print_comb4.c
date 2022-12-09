@@ -8,11 +8,11 @@
 int main(void)
 {
 	int i;
-
+	
 	for (i = 0; i < 8; i++)
 	{
 		int j;
-
+		
 		for (j = i+1; j < 9; j++)
 		{
 			int l;
@@ -30,6 +30,6 @@ int main(void)
 			 }
 		 }
 	}
-	printf("\n");	
+	putchar('\n');	
 	return (0);
 }
