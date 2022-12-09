@@ -5,9 +5,9 @@
 
 /* main doc*/
 /** this func is the entery point to the program
-* it is used to chech a single random number each time and
-*  determine if it is +iv or -iv or zero
-*/
+ * it is used to chech a single random number each time and
+ *  determine if it is +iv or -iv or zero
+ */
 int main(void)
 {
 	int n;
