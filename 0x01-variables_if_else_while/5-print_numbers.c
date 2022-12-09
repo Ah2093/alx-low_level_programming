@@ -7,9 +7,12 @@
  */
 int main(void)
 {
-	int i=0;
-	for ( ; i <= 9; )
-		printf("%d", i++);
-	printf('\n');
+	int num;
+
+	for (num = 0; num < 10; num++)
+		printf("%d", num);
+
+	printf("\n");
+
 	return (0);
 }
