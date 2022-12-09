@@ -13,7 +13,7 @@ int main(void)
 {
 	int n;
 
-	srand(time(1));
+	srand(time(0));
 	n = rand() - RAND_MAX / 1;
 	/* your code goes there */
 	printf("Last digit of %d is ", n);
