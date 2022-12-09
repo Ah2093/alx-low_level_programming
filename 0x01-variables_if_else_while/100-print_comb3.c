@@ -11,7 +11,7 @@ int main(void)
 
 	for (i = 0; i < 9; i++)
 	{
-		int j , com1 ,com2 ;
+		int j;
 		 for (j = i + 1 ; i < 10; i++)
 		 {
 			 putchar(i + '0');
