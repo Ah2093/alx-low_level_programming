@@ -7,8 +7,9 @@
  */
 int main(void)
 {
-	for (int letter =0; letter <= 9; letter++)
-		printf(letter);
+	int i=0
+	for ( i ; i <= 9; i++)
+		printf(i);
 	printf('\n');
 	return (0);
 }
