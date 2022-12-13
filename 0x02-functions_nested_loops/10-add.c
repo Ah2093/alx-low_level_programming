@@ -2,8 +2,8 @@
 
 /**
  * add - a function that adds to intgers
- * @n1 the first intger as input
- * @n2 the first intger as input
+ * @n1: the first intger as input
+ * @n2: the first intger as input
  * Return:the sum of two integers
  */
 
