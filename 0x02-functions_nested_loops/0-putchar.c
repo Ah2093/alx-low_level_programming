@@ -1,8 +1,4 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-/* more headers goes there */
-
+#include "main.h"
 /**
  * main - Prints a random number and states whether
  *        it is positive, negative, or zero.
@@ -11,14 +7,14 @@
 */
 int main(void)
 {
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 	return (0);
 
 }
