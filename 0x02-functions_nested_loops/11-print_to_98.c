@@ -19,6 +19,7 @@ void print_to_98(int n1)
 			else
 				printf("%d, ", n);
 		}
+		putchar('\n');
 	}
 	else
 	{
@@ -29,5 +30,6 @@ void print_to_98(int n1)
 			else
 				printf("%d, ", n);
 		}
+		putchar('\n');
 	}
 }
