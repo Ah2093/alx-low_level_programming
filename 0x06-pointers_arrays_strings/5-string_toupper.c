@@ -16,5 +16,5 @@ char *string_toupper(char *z)
 		if (z[i] >= 97 && z[i] <= 122)
 			z[i] -= 32;
 	}
-	return (dest);
+	return (z);
 }
