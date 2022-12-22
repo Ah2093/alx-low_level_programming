@@ -1,31 +1,29 @@
 #include "main.h"
-
 /**
- * rot13 - capitalizes all words of a string
+ * rot13 - encodes a string using rot13
  *
- * @z: the string to look at
+ * @z: the string to encode
  *
- * Return: the capitalized string
+ * Return: the new string
  */
 
 char *rot13(char *z)
 {
-	bool rev;
+	int i, j;
+	char a[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char n[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
-	int i;
-
-	i = 0;
-	while (z[i] != '\0')
+	for (i = 0; z[i] != '\0'; i++)
 	{
-		if ((z[i] >= 'A' && z[i] <= 'M') || (z[i] >= 'a' && z[i] <= 'm'))
+		for (j = 0; j < 56; j++)
 		{
-			z[i] += 13;
+			if (z[i] == a[j])
+			{
+				z[i] = n[j];
+				break;
+			}
 		}
-		else
-		{
-			z[i] -= 13;
-		}
-		i++;
 	}
+
 	return (z);
 }
