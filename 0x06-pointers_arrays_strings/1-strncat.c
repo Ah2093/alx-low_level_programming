@@ -3,16 +3,15 @@
 /**
  * _strncat - concatenates two strings
  *
- * @dest: the string @src is added to
- * @src: the string to be appended
- * @n:the number of char to add to dest
+ * @dest: string that is added to
+ * @src: string to be appended
+ * @n: the number of bytes from @src
  *
- * Return: pointer to the resulting string @dest
+ * Return: a pointer to the resulting string @dest
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
-
 	int len1 = 0; /* string length for src */
 	int len2 = 0; /* string length for dest */
 	int i;
