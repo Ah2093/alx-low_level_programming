@@ -2,12 +2,12 @@
 /**
  * string_toupper - copies a string to another string
  *
- * @dest: the buffer
+ * @z: the buffer
  *
  * Return: pointer to the resulting string @dest
  */
 
-char *string_toupper(char *dest)
+char *string_toupper(char *z)
 {
 	int i;
 
