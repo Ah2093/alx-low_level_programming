@@ -11,11 +11,10 @@ char *string_toupper(char *dest)
 {
 	int i;
 
-	i = 0;
-	while (dest[i] != '\0')
+	for (i = 0; z[i] != '\0'; i++)
 	{
-		dest[i] &= ~(32);
-		i++;
+		if (z[i] >= 97 && z[i] <= 122)
+			z[i] -= 32;
 	}
 	return (dest);
 }
