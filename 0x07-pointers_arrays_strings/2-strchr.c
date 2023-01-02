@@ -2,16 +2,19 @@
 
 /**
  * _strchr - Entry point
- * @s: pointed destination
- * @b: constant byte
+ * @s: input
+ * @c: input
  * Return: Always 0 (Success)
  */
-char *_strchr(char *s, char b)
+char *_strchr(char *s, char c)
 {
-	unsigned int i;
+	int i;
 
-	for (i = 0; s[i] != '\0'; i++)
-		if (s[i] == b)
+	for (i = 0; s[i] >= '\0'; i++)
+	{
+		if (s[i] == c)
 			return (s + i);
+	}
+
 	return (NULL);
 }
