@@ -1,6 +1,3 @@
-/**
- * Function that converts a binary number to an unsigned int
- */
 #include "main.h"
 /**
  * binary_to_uint - Entry Point
